@@ -1,0 +1,6 @@
+{
+  "name": "AI Fire Detection & Prevention System (IoT & ML)",
+  "description": "Smart IoT & ML-driven fire detection, risk prediction, ESP32 integration, alert management, and automated prevention dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

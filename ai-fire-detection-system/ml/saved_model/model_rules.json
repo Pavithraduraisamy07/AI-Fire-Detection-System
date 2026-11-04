@@ -1,0 +1,20 @@
+{
+  "thresholds": {
+    "high_risk": {
+      "flame": true,
+      "smoke_ppm": 400,
+      "temperature": 55
+    },
+    "warning": {
+      "smoke_ppm": 180,
+      "temperature": 36,
+      "humidity_low": 25
+    }
+  },
+  "weights": {
+    "flame": 0.42,
+    "smoke": 0.31,
+    "temp": 0.19,
+    "humidity": 0.08
+  }
+}

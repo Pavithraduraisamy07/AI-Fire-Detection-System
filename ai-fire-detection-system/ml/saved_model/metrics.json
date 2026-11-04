@@ -1,0 +1,54 @@
+{
+  "model_name": "IoT Multi-Sensor Fire Risk Classifier",
+  "algorithm": "Gradient Threshold Decision Ensemble",
+  "total_samples": 1000,
+  "train_samples": 800,
+  "test_samples": 200,
+  "accuracy": 0.98,
+  "precision": 0.9722,
+  "recall": 0.9751,
+  "f1_score": 0.9731,
+  "confusion_matrix": {
+    "labels": [
+      "NORMAL",
+      "WARNING",
+      "HIGH RISK"
+    ],
+    "matrix": [
+      [
+        88,
+        0,
+        0
+      ],
+      [
+        0,
+        50,
+        4
+      ],
+      [
+        0,
+        0,
+        58
+      ]
+    ]
+  },
+  "feature_weights": [
+    {
+      "feature": "flame_detected",
+      "importance": 0.42
+    },
+    {
+      "feature": "smoke_ppm",
+      "importance": 0.31
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.19
+    },
+    {
+      "feature": "humidity",
+      "importance": 0.08
+    }
+  ],
+  "trained_at": "2026-11-03T06:43:21.926214Z"
+}
